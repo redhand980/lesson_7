@@ -1,0 +1,110 @@
+@import "reset.css";
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+    max-width: 810px;
+    margin: 0 auto;
+    padding: 20px;    
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    vertical-align: top;
+    color: #424551;
+}
+
+h1, img, p, ul {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 46px;
+    line-height: 1.3;
+    font-weight: 900;
+    color: #1E212C;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+.top-list {
+    list-style-type: none;
+    margin-top: 6px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .top-list li {
+    float: left;
+    padding-left: 24px;     
+    min-height: 26px;
+    font-size: 16px;
+    line-height: 1.6;
+    columns: #787A80;
+  } 
+
+  .top-list-date-item {
+    background: url(../img/calendar.svg) no-repeat 0 5px;
+    margin-right: 24px;
+  }
+
+  .top-list-time-item {
+    background: url(../img/clock.svg) no-repeat 0 5px;
+  }  
+
+.glasses-keyboard {
+    width: 100%;
+}
+
+.bold-prgrph {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.red-line {
+    padding-left: 58px;
+    background: url(../img/rectangle1.png) no-repeat 0 5px, url(../img/rectangle2.png) no-repeat 20px 5px;
+}
+
+.red-list li {
+    background: url(../img/list.svg) no-repeat 0 6px;
+    padding-left: 30px;
+    min-height: 25px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h6 {
+    font-weight: 700;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #1E212C;
+}
+
+.btn {
+    background-color: #f95b1d;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 32px;
+    line-height: 2.62;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.btn:hover {
+    background-color: #f74d0a;
+}
+
+.btn:active {
+    background-color: #cf3f07;
+    box-shadow: inset 3px 3px 2px 3px #c7400b, inset -3px -3px 2px 3px #c7400b;
+}
